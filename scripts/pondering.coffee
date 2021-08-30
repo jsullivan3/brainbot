@@ -28,5 +28,5 @@ module.exports = (robot) ->
         (message) ->
             Math.random() > 0.99
         (response) ->
-            response.reply response.random responses
+            response.send response.random responses
     )
